@@ -1,0 +1,105 @@
+/*  Center the  selector element  access by class mane one*/
+.one{
+    color:green;
+    text-align: center; 
+    font-size: 50px;
+}
+.two{
+    color:rgb(131, 156, 131);
+    text-align:end; 
+    font-size: 50px;
+}
+.three{
+    color:rgb(147, 119, 67);
+    text-align: justify;
+    font-size: 50px;
+}
+.four{
+    color:rgb(143, 101, 101);
+    text-align: left;
+    font-size: 50px;
+}
+.five{
+    color:rgb(0, 62, 64);
+    text-align: right;
+    font-size: 50px;
+}
+.six{
+    color:rgb(95, 131, 17);
+    text-align:start;
+    font-size: 50px;
+}
+.seven{
+    color:rgb(86, 13, 85);
+    text-align:inherit;
+    font-size: 50px;
+}
+.eight{
+    color:rgb(55, 161, 126);
+    text-align:initial;
+    font-size: 50px;
+}
+.nine{
+    color:rgb(88, 13, 111);
+    text-align:unset;
+    font-size: 50px;
+}
+.ten{
+    color:rgb(146, 18, 106);
+    text-align:calc();
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
