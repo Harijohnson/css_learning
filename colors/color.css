@@ -1,4 +1,7 @@
 /*  Center the  selector element  access by class mane one*/
+body{
+    background-color:bisque;
+}
 .one{
     color:green;
     text-align: center; 
