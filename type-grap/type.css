@@ -1,0 +1,22 @@
+/* arranging text elements */
+body {
+    padding: 10%;
+    font-size: 1.1rem;
+}
+/* input, button {
+    font-size:inherit;
+} */
+
+
+p{
+    /* text-decoration:  none; */
+    /* text-transform:capitalize; */
+    /* text-align: justify; */
+    /* text-indent: 2em; */
+    /* line-height: 1.3; */
+    /* letter-spacing: 2em; */
+    /* word-spacing: 1.2em; */
+    /* font-weight: bold; */
+    font-family: Georgi a, 'Times New Roman', Times, serif;
+      
+}
