@@ -1,0 +1,15 @@
+body{
+    font-size: 1.5rem;
+}
+
+.column{
+    column-count: 4;
+    column-width: 25%;
+    /* columns: 4 25px; */
+    column-rule: 3px solid black;
+    column-gap: 20px;
+}
+
+.column p{
+    margin-top: 0;
+}
