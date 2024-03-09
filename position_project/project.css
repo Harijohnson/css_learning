@@ -1,0 +1,64 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-size: 1.5rem;
+}
+
+section{
+    height: 100vh;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color:red;
+}
+.green{
+    background-color:green;
+}
+header,footer{
+    color: whitesmoke;
+    font-size: 3rem;
+    text-align: center;
+    height: 4rem;
+    padding: 1rem;
+}
+
+header{
+    position: sticky;
+    top:0;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color:rgb(31, 31, 29);
+    /* width: 100%; */
+    /* font-size: 4em; */
+}
+footer a{
+    color:rgb(242, 93, 214);
+}
+button{
+    background-color:aquamarine;
+    font-size: inherit;
+    color:rgb(30, 24, 35);
+    position: fixed;
+    top:30%;
+    left:0;
+    z-index: 1;
+    border-radius: 7px;
+    
+}
+
+.krish{
+    background-color:aquamarine;
+    font-size: inherit;
+    color:rgb(30, 24, 35);
+    position: fixed;
+    top:40%;
+    left:0;
+    z-index: 1;
+}
