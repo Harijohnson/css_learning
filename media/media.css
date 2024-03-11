@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.5rem;
+    min-height: 100vh;
+    background-color:rgb(255, 255, 255);
+    background-image: radial-gradient(white,gray );
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    transition: smooth;
+}   
+
+header,nav,main,footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+header,footer{
+    position: sticky;
+    background-color:#1E2938;
+    color:whitesmoke;
+}
+
+main{
+    flex-grow: 1;
+}
+header{
+    top:0;
+}
+
+nav{
+    background-color:white;
+    color:#1E2938;
+    padding: 0.5em;
+    border: 2px solid black;
+}
+footer{
+    bottom: 0;
+}
+
+/* Syntax */
+
+/* @media media_type and (condition : breakpoint) {
+    css roules
+} */
+
+
+/*  mobile devices */
+@media screen and (min-width:576px){
+
+    body {
+        background-color:hsla(135, 63%, 31%, 0.8);
+        background-image:radial-gradient(whitesmoke,green);
+    }
+    nav{
+        display: none;
+    }
+    
+}
+/*  medium devices */
+@media screen and (min-width:768px){
+
+    body {
+        background-color:hsla(135, 63%, 31%, 0.8);
+        background-image:radial-gradient(whitesmoke,red);
+    }
+    
+}
+
+
+/*  medium devices */
+@media screen and (min-width:992px){
+
+    body {
+        background-color:hsla(135, 63%, 31%, 0.8);
+        background-image:radial-gradient(whitesmoke,gold);
+    }
+}
+
+
+
+
+/*  mobile devices */
+@media screen and (max-height:425px) and (min-aspect-ratio:7/4){
+
+    body {
+        background-color:hsla(135, 63%, 31%, 0.8);
+        background-image:radial-gradient(whitesmoke,purple);
+    }
+
+}
