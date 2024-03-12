@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
     <header>
-        <div className="home">Home</div>
-        <div className="products">Products</div>
-        <div className="accout">Account</div>
+        <Link to='/' className="home">Home</Link>
+        <Link to='product' className="products">Products</Link>
+        <Link to='accout' className="accout">Account</Link>
     </header>
   )
 }
