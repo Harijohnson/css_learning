@@ -1,7 +1,7 @@
 a{
     text-decoration:none;
     cursor:pointer;
-    color: brown;
+    color: green;
     
 }
 a:visited {
@@ -11,5 +11,5 @@ a:active{
     color: red;
 }
 a:hover{
-    color:orange;
+    color: lightgreen;
 }
