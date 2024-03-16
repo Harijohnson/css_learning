@@ -1,4 +1,4 @@
-*{
+ii*{
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -48,7 +48,7 @@ img{
     padding: 20px;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: right;
     gap:30px;
 
 }
