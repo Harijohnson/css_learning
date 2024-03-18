@@ -13,7 +13,6 @@ ul{
     /* list-style-image: url(./tick.png); */
     /* color: blue;  */
     list-style: square url(./tick.png) inside;
-}
 
 
 
